@@ -1,5 +1,5 @@
 ## Install Packages ##
-#install.packages("adaptDA_1.0.tar.gz",repos = NULL, type = "source")
+#install.packages("packages//MCMC//adaptDA_1.0.tar.gz",repos = NULL, type = "source")
 #install.packages("remotes")
 #remotes::install_github("AndreaCappozzo/raedda")
 #remotes::install_github("Fradenti/Brand")

@@ -1,0 +1,3 @@
+The package reported here is the same obtainable at https://www.rdocumentation.org/packages/adaptDA/versions/1.0
+
+Its installation was however sometimes troublesom, so we manually download and install it from here
