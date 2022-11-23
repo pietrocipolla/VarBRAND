@@ -34,7 +34,6 @@ training_set<-training_set[,c(37, c(1:36))]
 # Apply correction
 test_set[,-1] <- test_set[,-1]/4.5
 training_set[,-1] <- training_set[,-1]/4.5
-det(var(training_set[,-1]))
 
 # Define the classes for the clustering and map them in numbers
 colnames(test_set)[1] <- "soil_type"
@@ -93,7 +92,6 @@ pico_varbrand_soil <- function(training_set, test_set, ID, best_par, rand_par, T
   n_iter = 1000
   tol = 1e-5
   
-  print("L'errore è qui")  
   gamma = 10
 
   
